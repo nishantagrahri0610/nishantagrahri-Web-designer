@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditya Handloom | Wholesale Readymade Clothing - Motihari</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #2d2013; line-height: 1.6; background: #faf6f0; }
+  a { text-decoration: none; color: inherit; }
+
+  nav { background: #7a1f2b; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+  nav .logo { color: #fff; font-size: 1.4rem; font-weight: 700; }
+  nav .nav-links a { color: #f5d98a; margin-left: 16px; font-size: 0.95rem; font-weight: 500; }
+  nav .nav-links a:hover { color: #fff; }
+
+  .hero { background: linear-gradient(135deg, #7a1f2b, #a9384a); color: #fff; text-align: center; padding: 70px 20px 60px; }
+  .hero h1 { font-size: 2.3rem; margin-bottom: 6px; }
+  .hero .hindi-name { font-size: 1.15rem; color: #f5d98a; margin-bottom: 18px; }
+  .hero .tagline { font-size: 1.1rem; margin-bottom: 10px; color: #fceec2; }
+  .hero .loc-line { font-size: 0.92rem; margin-bottom: 26px; color: #f0dcc4; }
+
+  .cta-btn { display: inline-block; background: #f5d98a; color: #7a1f2b; padding: 12px 26px; border-radius: 30px; font-weight: 700; font-size: 0.95rem; transition: 0.25s; }
+  .cta-btn:hover { background: #fff; }
+
+  section { padding: 50px 20px; max-width: 900px; margin: 0 auto; }
+  h2 { text-align: center; font-size: 1.7rem; color: #7a1f2b; margin-bottom: 10px; }
+  h2::after { content: ''; display: block; width: 55px; height: 3px; background: #d4a017; margin: 12px auto 30px; }
+
+  .about p { text-align: center; max-width: 640px; margin: 0 auto 12px; }
+  .about .founder { text-align: center; font-weight: 600; color: #7a1f2b; margin-bottom: 16px; }
+
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 22px; }
+  .category-card { background: #fff; border-radius: 14px; padding: 24px 10px; text-align: center; box-shadow: 0 3px 12px rgba(0,0,0,0.08); transition: 0.25s; }
+  .category-card:hover { transform: translateY(-4px); }
+  .category-card .icon { font-size: 2.1rem; margin-bottom: 8px; }
+  .category-card .label { font-weight: 600; }
+
+  .note { text-align: center; background: #fff3d6; color: #8a5a00; padding: 12px 16px; border-radius: 10px; font-size: 0.9rem; max-width: 520px; margin: 0 auto; }
+
+  .features { background: #fff; }
+  .grid3 { display: grid; grid-template-columns: 1fr; gap: 16px; }
+  .feature-item { text-align: center; padding: 14px 8px; }
+  .feature-item .icon { font-size: 1.9rem; margin-bottom: 6px; }
+  .feature-item .label { font-weight: 600; font-size: 0.95rem; }
+
+  .location { background: linear-gradient(135deg, #2d2013, #4a3524); color: #fff; text-align: center; border-radius: 18px; }
+  .location h2 { color: #f5d98a; }
+  .location h2::after { background: #f5d98a; }
+  .location p { margin-bottom: 20px; font-size: 1rem; }
+
+  footer { background: #7a1f2b; color: #f0dcc4; text-align: center; padding: 24px 20px; font-size: 0.86rem; }
+  footer .contact-note { margin-top: 8px; color: #f5d98a; }
+
+  @media (min-width: 700px) {
+    .grid { grid-template-columns: repeat(4, 1fr); }
+    .grid3 { grid-template-columns: repeat(3, 1fr); }
+    .hero h1 { font-size: 3rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Aditya Handloom</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#location">Location</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Aditya Handloom</h1>
+  <div class="hindi-name">आदित्य हैंडलूम</div>
+  <p class="tagline">Wholesale Readymade Clothing at the Best Rates</p>
+  <p class="loc-line">📍 Henry Bazar, Motihari, East Champaran, Bihar</p>
+  <a href="#location" class="cta-btn">Get Directions</a>
+</section>
+
+<section class="about" id="about">
+  <h2>About Us</h2>
+  <p class="founder">Founded by Tinku G</p>
+  <p>Aditya Handloom is a trusted wholesale readymade clothing store in Motihari, offering a wide range of quality garments at genuine wholesale rates. Whether you're a retailer or a bulk buyer, we make sure you get the best value on every purchase.</p>
+</section>
+
+<section class="products" id="products">
+  <h2>What We Offer</h2>
+  <div class="grid">
+    <div class="category-card"><div class="icon">👔</div><div class="label">Men's Wear</div></div>
+    <div class="category-card"><div class="icon">👗</div><div class="label">Women's Wear</div></div>
+    <div class="category-card"><div class="icon">🧒</div><div class="label">Kids Wear</div></div>
+    <div class="category-card"><div class="icon">🧥</div><div class="label">Western Wear</div></div>
+  </div>
+  <p class="note">Note: Sarees are not available here — all other types of readymade clothing are available at wholesale rates.</p>
+</section>
+
+<section class="features">
+  <h2>Why Choose Us</h2>
+  <div class="grid3">
+    <div class="feature-item"><div class="icon">💰</div><div class="label">Genuine Wholesale Rates</div></div>
+    <div class="feature-item"><div class="icon">🧵</div><div class="label">Wide Variety</div></div>
+    <div class="feature-item"><div class="icon">📦</div><div class="label">Bulk Orders Welcome</div></div>
+  </div>
+</section>
+
+<section class="location" id="location">
+  <h2>Visit Our Store</h2>
+  <p>Henry Bazar, Motihari, East Champaran, Bihar</p>
+  <a href="https://www.google.com/maps/search/?api=1&amp;query=Henry+Bazar+Motihari+East+Champaran+Bihar" target="_blank" class="cta-btn">Get Directions on Google Maps</a>
+</section>
+
+<footer>
+  <p>&copy; 2026 Aditya Handloom — Founder: Tinku G</p>
+  <p class="contact-note">📞 Add your phone / WhatsApp number here</p>
+</footer>
+
+</body>
+</html>
